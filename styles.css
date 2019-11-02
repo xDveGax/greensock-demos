@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  height: 50vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 24px;
+}
+
+div {
+  margin: 24px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid black;
+}
+
+.hover {
+  box-shadow: 0 1rem 1rem;
+}
+
+.down {
+  background-color: blue;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border: 5px solid black;
+}
